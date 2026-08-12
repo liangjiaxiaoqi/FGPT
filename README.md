@@ -15,7 +15,7 @@ This repository contains the official implementation of **FGPT**. In this work, 
 In EEG decoding, Transformer models have garnered significant attention due to their exceptional temporal modeling capabilities; however, their lack of perception for critical frequency-domain features within EEG signals constrains further performance enhancement. Most existing methods rely on complex network structures or multi-branch parallel architectures, which lead to significant computational redundancy and disrupt the continuity of the EEG sequence structure. To address this issue, we propose a parameter-efficient, lightweight modeling paradigm using sparse frequency tokens.
 
 <div align="center">
-  <img src="image/gagraphic.jpg" alt="Figure 1" width="90%">
+  <img src="image/gagraphic.jpg" alt="Figure 1" width="100%">
   <p><em>Figure 1: Sparse frequency tokens are used for prompt fine-tuning of the Transformer network for EEG decoding, enabling global frequency component modeling while preserving the temporal-spatial integrity of the original sequence.</em></p>
 </div>
 
