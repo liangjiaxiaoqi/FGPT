@@ -6,7 +6,7 @@ FGPT can assist in EEG decoding based on the Transformer framework, serving as a
 
 🎉🎉🎉 **News:** Our paper has been officially accepted by ***IEEE Journal of Biomedical and Health Informatics***! 🎉🎉🎉
 
-This repository contains the official implementation of **FGPT**. In this work, we propose a lightweight approach termed Frequency-Gated Prompted Transformer (FGPT) designed for efficient electroencephalogram (EEG) decoding. FGPT can assist in EEG decoding based on the Transformer framework, serving as a scalable approach. We will update the code shortly.
+This repository contains the official implementation of **FGPT**. In this work, we propose a lightweight approach termed Frequency-Gated Prompted Transformer (FGPT) designed for efficient electroencephalogram (EEG) decoding. FGPT can assist in EEG decoding based on the Transformer framework, serving as a scalable approach.
 
 ---
 
@@ -21,6 +21,7 @@ In EEG decoding, Transformer models have garnered significant attention due to t
 
 ---
 
+<!--
 ## 🚀 Model Architecture
 
 Our FGPT utilizes sparse token prompt learning based on gated fusion to model the frequency components of Transformers while avoiding disrupting the spatio-temporal continuity of the original sequence. It adaptively represents global EEG rhythms by introducing learnable sparse frequency prompt tokens and synergistically embedding them with the original EEG sequence into the Transformer's self-attention computation.
@@ -55,3 +56,20 @@ Extensive experiments demonstrate that FGPT improves the decoding performance an
 # Clone the repository
 git clone [https://github.com/liangjiaxiaoqi/FGPT.git](https://github.com/liangjiaxiaoqi/FGPT.git)
 cd FGPT
+
+
+---
+
+## ✒️ Citation
+
+```bibtex
+If you find our work, model, or code useful for your research, please consider citing our paper in the IEEE Journal of Biomedical and Health Informatics:
+@article{tan2026frequency,
+  title={Frequency-Gated Prompting for Enhancing Transformer-based EEG Decoding},
+  author={Tan, Hanzhong and Wen, Shuangbing and Hu, Tao and Li, Jun and Zhang, Zhiqiang},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  year={2026},
+  publisher={IEEE},
+  doi={10.1109/JBHI.2026.3722744}
+}
+-->
