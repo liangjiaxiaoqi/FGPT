@@ -10,7 +10,7 @@ This repository contains the official implementation of **FGPT**. In this work, 
 
 ---
 
-## ✨ Motivation
+## 🚀 Motivation & Architecture
 
 In EEG decoding, Transformer models have garnered significant attention due to their exceptional temporal modeling capabilities; however, their lack of perception for critical frequency-domain features within EEG signals constrains further performance enhancement. Most existing methods rely on complex network structures or multi-branch parallel architectures, which lead to significant computational redundancy and disrupt the continuity of the EEG sequence structure. To address this issue, we propose a parameter-efficient, lightweight modeling paradigm using sparse frequency tokens.
 
@@ -19,10 +19,12 @@ In EEG decoding, Transformer models have garnered significant attention due to t
   <p><em>Figure 1: Sparse frequency tokens are used for prompt fine-tuning of the Transformer network for EEG decoding, enabling global frequency component modeling while preserving the temporal-spatial integrity of the original sequence.</em></p>
 </div>
 
+Our FGPT utilizes sparse token prompt learning based on gated fusion to model the frequency components of Transformers while avoiding disrupting the spatio-temporal continuity of the original sequence. It adaptively represents global EEG rhythms by introducing learnable sparse frequency prompt tokens and synergistically embedding them with the original EEG sequence into the Transformer's self-attention computation.
+
 ---
 
 <!--
-## 🚀 Model Architecture
+## 🚀 Model Architecture ✨
 
 Our FGPT utilizes sparse token prompt learning based on gated fusion to model the frequency components of Transformers while avoiding disrupting the spatio-temporal continuity of the original sequence. It adaptively represents global EEG rhythms by introducing learnable sparse frequency prompt tokens and synergistically embedding them with the original EEG sequence into the Transformer's self-attention computation.
 
