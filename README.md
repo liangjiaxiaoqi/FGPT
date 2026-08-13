@@ -31,7 +31,10 @@ FGPT can assist in EEG decoding based on the Transformer framework, serving as a
 
 </div>
 
+<!--
 > This repository contains the official implementation of our paper: **"[Frequency-Gated Prompting for Enhancing Transformer-based EEG Decoding](https://doi.org/10.1109/JBHI.2026.3722744)"**, accepted by ***IEEE Journal of Biomedical and Health Informatics (JBHI)***. In this work, we propose a lightweight approach termed Frequency-Gated Prompted Transformer (FGPT) designed for efficient electroencephalogram (EEG) decoding.
+-->
+> This repository contains the official implementation of **FGPT**. In this work, we propose a lightweight approach termed Frequency-Gated Prompted Transformer (FGPT) designed for efficient electroencephalogram (EEG) decoding. FGPT can assist in EEG decoding based on the Transformer framework, serving as a scalable approach.
 
 📰**News:** Our paper has been officially accepted by ***IEEE Journal of Biomedical and Health Informatics***! 🎉🎉🎉
 
