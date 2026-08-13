@@ -29,7 +29,7 @@ FGPT can assist in EEG decoding based on the Transformer framework, serving as a
   <a href="#"><img src="https://img.shields.io/badge/Code-FGPT-2d7d46?style=flat&logo=ieee&logoColor=white" alt="Code"></a>
 </p>
 
-🎉🎉🎉 **News:** Our paper has been officially accepted by ***IEEE Journal of Biomedical and Health Informatics***! 🎉🎉🎉
+**News:** Our paper has been officially accepted by ***IEEE Journal of Biomedical and Health Informatics***! 🎉🎉🎉
 
 </div>
 
