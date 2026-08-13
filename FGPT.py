@@ -10,7 +10,7 @@ from torch import nn
 
 
 class FGPT(nn.Module):
-    def __init__(self, dim, max_prompts=10, dropout=0.1):
+    def __init__(self, dim, max_prompts=5, dropout=0.1):
         super().__init__()
         self.max_prompts = max_prompts
 
