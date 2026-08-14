@@ -88,16 +88,17 @@ To evaluate the performance of FGPT, we conducted experiments on EEG-ViT, EEG-Co
   <img src="image/sub44_FGPT_Attention.png" alt="Figure 3" width="100%">
   <p><em>Figure 3: Dynamic attention distribution of FGPT in EEG-Deformer for subject 44 in dataset B (Fatigue). Accuracy-Computation Complexity scatter plot comparison of three Transformer-Based EEG decoding models before and after applying FGPT.</em></p>
 </div>
-
+<!--
 <div align="center">
   <img src="image/FLOPs_1.pdf" alt="Figure 4" width="100%">
   <p><em>Figure 4: Comparison and analysis of computational cost (FLOPs) for baseline models before and after FGPT application across three datasets.</em></p>
 </div>
-
+<!--
 <div align="center">
   <img src="image/ACC-FLOPs-Params-4.pdf" alt="Figure 5" width="100%">
   <p><em>Figure 5: Comparison and analysis of Accuracy-FLOPs-Params metrics for baseline models across three datasets before and after FGPT application.</em></p>
 </div>
+-->
 
 ---
 
