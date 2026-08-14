@@ -83,12 +83,12 @@ To evaluate the performance of FGPT, we conducted experiments on EEG-ViT, EEG-Co
 * **Mental Cognitive Work (Dataset C):** FGPT elevated the F1-macro scores with average gains of 1.51%, 1.59%, and 3.90% across the three evaluated models.
 * **Computational Efficiency:** Integrating FGPT incurs only minimal additional overhead across models, achieving substantial performance enhancements at a negligible resource cost.
 -->
-<!--
+
 <div align="center">
   <img src="image/sub44 FGPT_Attention.png" alt="Figure 3" width="100%">
   <p><em>Figure 3: Dynamic attention distribution of FGPT in EEG-Deformer for subject 44 in dataset B (Fatigue). Accuracy-Computation Complexity scatter plot comparison of three Transformer-Based EEG decoding models before and after applying FGPT.</em></p>
 </div>
-
+<!--
 <div align="center">
   <img src="image/FLOPs_1.pdf" alt="Figure 4" width="100%">
   <p><em>Figure 4: Comparison and analysis of computational cost (FLOPs) for baseline models before and after FGPT application across three datasets.</em></p>
