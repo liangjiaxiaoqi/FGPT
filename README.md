@@ -74,7 +74,7 @@ Our FGPT utilizes sparse token prompt learning based on gated fusion to model th
 
 ---
 
-## 📊 Experimental Results
+## 📊 Experimental
 
 To evaluate the performance of FGPT, we conducted experiments on [EEG-ViT](https://github.com/yi-ding-cs/EEG-Deformer), [EEG-Conformer](https://github.com/eeyhsong/EEG-Conformer), and [EEG-Deformer](https://github.com/yi-ding-cs/EEG-Deformer) using the [EEG-Deformer code framework](https://github.com/yi-ding-cs/EEG-Deformer), and additionally conducted experiments on [FACT-Net](https://github.com/Ktn1ga/EEG_FACT) and [ADFCNN](https://github.com/UM-Tao/ADFCNN-MI). The experimental results show that FGPT enhances the decoding performance and robustness of multiple Transformer-based baseline models at a low cost.
 <!--
@@ -83,17 +83,17 @@ To evaluate the performance of FGPT, we conducted experiments on [EEG-ViT](https
 * **Mental Cognitive Work (Dataset C):** FGPT elevated the F1-macro scores with average gains of 1.51%, 1.59%, and 3.90% across the three evaluated models.
 * **Computational Efficiency:** Integrating FGPT incurs only minimal additional overhead across models, achieving substantial performance enhancements at a negligible resource cost.
 -->
-
+<!--
 <div align="center">
   <img src="image/sub44_FGPT_Attention.png" alt="Figure 3" width="100%">
   <p><em>Figure 3: Dynamic attention distribution of FGPT in EEG-Deformer for subject 44 in dataset B (Fatigue). Accuracy-Computation Complexity scatter plot comparison of three Transformer-Based EEG decoding models before and after applying FGPT.</em></p>
 </div>
-<!--
+
 <div align="center">
   <img src="image/FLOPs_1.pdf" alt="Figure 4" width="100%">
   <p><em>Figure 4: Comparison and analysis of computational cost (FLOPs) for baseline models before and after FGPT application across three datasets.</em></p>
 </div>
-<!--
+
 <div align="center">
   <img src="image/ACC-FLOPs-Params-4.pdf" alt="Figure 5" width="100%">
   <p><em>Figure 5: Comparison and analysis of Accuracy-FLOPs-Params metrics for baseline models across three datasets before and after FGPT application.</em></p>
@@ -108,13 +108,11 @@ To evaluate the performance of FGPT, we conducted experiments on [EEG-ViT](https
 If you want to use FGPT for frequency tuning, you can incorporate it into a Transformer-based EEG decoding framework.
 
 ### Step 1: Connect & Use
-
 self.FGPT = FGPT(dim=dim, max_prompts=max_prompts, dropout=dropout) \
 ...\
 x, num_prompts = self.FGPT(x)
 
 ### Step 2: Remove
-
 out = out[:, num_prompts:, :]
 
 <!--
