@@ -108,9 +108,9 @@ To evaluate the performance of FGPT, we conducted experiments on [EEG-ViT](https
 If you want to use FGPT for frequency tuning, you can incorporate it into a Transformer-based EEG decoding framework.
 
 ### Step 1: Connect & Use
-self.FGPT = FGPT(dim=dim, max_prompts=max_prompts, dropout=dropout) \
+self.fgpt = FGPT(dim=dim, max_prompts=max_prompts, dropout=dropout) \
 ...\
-x, num_prompts = self.FGPT(x)
+x, num_prompts = self.fgpt(x)
 
 ### Step 2: Remove
 out = out[:, num_prompts:, :]
