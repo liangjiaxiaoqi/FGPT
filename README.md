@@ -115,8 +115,9 @@ cd FGPT
 
 ## ✒️ Citation
 
-```bibtex
 If you find our work, model, or code useful for your research, please consider citing our paper in the IEEE Journal of Biomedical and Health Informatics:
+
+```bibtex
 @article{tan2026frequency,
   title={Frequency-Gated Prompting for Enhancing Transformer-based EEG Decoding},
   author={Tan, Hanzhong and Wen, Shuangbing and Hu, Tao and Li, Jun and Zhang, Zhiqiang},
