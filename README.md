@@ -105,12 +105,12 @@ To evaluate the performance of FGPT, we conducted experiments on [EEG-ViT](https
 ## 🛠️ Usage
 
 ### Preparations
+<!--
 ```bash
 # Clone the repository
 git clone [https://github.com/liangjiaxiaoqi/FGPT.git](https://github.com/liangjiaxiaoqi/FGPT.git)
 cd FGPT
-
-
+-->
 ---
 
 ## ✒️ Citation
