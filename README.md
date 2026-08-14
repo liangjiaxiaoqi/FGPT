@@ -76,7 +76,7 @@ Our FGPT utilizes sparse token prompt learning based on gated fusion to model th
 
 ## 📊 Experimental Results
 
-To evaluate the performance of FGPT, we conducted experiments on EEG-ViT, EEG-Conformer, and EEG-Deformer using the EEG-Deformer code framework, and additionally conducted experiments on FACT-Net and ADFCNN. The experimental results show that FGPT enhances the decoding performance and robustness of multiple Transformer-based baseline models at a low cost.
+To evaluate the performance of FGPT, we conducted experiments on [EEG-ViT](https://github.com/yi-ding-cs/EEG-Deformer), [EEG-Conformer](https://github.com/eeyhsong/EEG-Conformer), and [EEG-Deformer](https://github.com/yi-ding-cs/EEG-Deformer) using the [EEG-Deformer code framework](https://github.com/yi-ding-cs/EEG-Deformer), and additionally conducted experiments on [FACT-Net](https://github.com/Ktn1ga/EEG_FACT) and [ADFCNN](https://github.com/UM-Tao/ADFCNN-MI). The experimental results show that FGPT enhances the decoding performance and robustness of multiple Transformer-based baseline models at a low cost.
 <!--
 * **Cognitive Attention (Dataset A):** FGPT elevated the average accuracy of EEG-ViT, EEG-Conformer, and EEG-Deformer by 1.74%, 1.56%, and 3.87%, respectively.
 * **Fatigue Driving (Dataset B):** The introduction of FGPT enhanced the performance across different backbone models.
