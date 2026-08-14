@@ -104,7 +104,18 @@ To evaluate the performance of FGPT, we conducted experiments on [EEG-ViT](https
 
 ## 🛠️ Usage
 
-### Preparations
+After cloning FGPT, you can add it to your Transformer-based EEG decoding model.
+
+### Step 1: Connect & Use
+
+self.FGPT = FGPT(dim=dim, max_prompts=max_prompts, dropout=dropout) 
+...
+x, num_prompts = self.FGPT(x)
+
+### Step 2: Remove
+
+out = out[:, num_prompts:, :]
+
 <!--
 ```bash
 # Clone the repository
