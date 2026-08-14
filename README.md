@@ -4,9 +4,9 @@ FGPT can assist in EEG decoding based on the Transformer framework, serving as a
 
 <div align="center">
 
-# Frequency-Gated Prompting for Enhancing Transformer-based EEG Decoding
+# FGPT
 
-### FGPT
+### Frequency-Gated Prompting for Enhancing Transformer-based EEG Decoding
 <!--
 <p align="center">
   <a href="https://github.com/liangjiaxiaoqi">Hanzhong Tan</a><sup>1</sup>,
