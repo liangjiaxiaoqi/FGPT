@@ -104,7 +104,8 @@ To evaluate the performance of FGPT, we conducted experiments on [EEG-ViT](https
 
 ## 🛠️ Usage
 
-After cloning FGPT, you can add it to your Transformer-based EEG decoding model.
+<!--After cloning FGPT, you can add it to your Transformer-based EEG decoding model.-->
+If you want to use FGPT for frequency tuning, you can incorporate it into a Transformer-based EEG decoding framework.
 
 ### Step 1: Connect & Use
 
