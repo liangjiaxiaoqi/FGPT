@@ -70,9 +70,9 @@ Our FGPT utilizes sparse token prompt learning based on gated fusion to model th
   <img src="assets/figure2.png" alt="Figure 2" width="80%">
   <p><em>Figure 2: The computational process for different tokens after embedding sparse frequency prompts into the attention layer, and the removal of sparse frequency prompt operations.</em></p>
 </div>
--->
 
 ---
+-->
 
 ## 📊 Experimental
 
